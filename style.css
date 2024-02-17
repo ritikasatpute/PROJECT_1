@@ -1,0 +1,99 @@
+*{
+    font-family: poppins;
+}
+    #table-section{
+    margin-inline: 25%;
+}
+#form-section{
+    margin-inline: 25%;
+}
+
+.navbar {
+    background-color:black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 14px;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lib {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:medium;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .right a:hover {
+    background-color:pink;
+  }
+
+.table{
+    width: 650px;
+    height:250px;
+    background-color: white;
+    border:1px solid lightgray;
+    border-collapse: collapse;
+    margin-left: 5px;
+    margin-top: 15px;
+
+}
+#two{
+    width:100%;
+    height:20px;
+    padding-left:20px;
+    color:black;
+    text-align: left;
+    font-size: 15px;
+   
+   
+}
+#tbody td{
+    text-align: left;
+    padding-left: 15px;
+    padding-left:8px;
+    
+    
+}
+.innertable{
+    width: 200px;
+    margin: 8px;
+    padding:12px;
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+.form{
+    font-family:poppins;
+    font-weight: 500;
+     margin-left: 8px;
+    
+}
+#btn{
+    background-color:black;
+    color:white;
+    width: 655px;
+    text-align: center;
+}
+#btn:hover{
+    background-color: pink;
+    color:black;
+}
+.form>input{
+    width:645px;
+   
+}
